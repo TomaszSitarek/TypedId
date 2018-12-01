@@ -17,7 +17,6 @@ namespace TS.TypedId
             this.Id = id;
         }
 
-
         public override bool Equals(object obj)
             => this.Equals(obj as TDerived);
 
