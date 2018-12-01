@@ -1,5 +1,5 @@
 # TypedId
-Base class for your Strongly Typed Identifier
+Base class for Strongly Typed Identifier.
 
 Sample usage:
     class DutyId : TypedId<int, DutyId>
