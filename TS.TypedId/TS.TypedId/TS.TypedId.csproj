@@ -3,6 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Tomasz Sitarek</Authors>
+    <Description>Strongly typed identifier base class.</Description>
+    <Copyright />
+    <PackageLicenseUrl>https://github.com/TomaszSitarek/TypedId/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/TomaszSitarek/TypedId/</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
