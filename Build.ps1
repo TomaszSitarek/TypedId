@@ -32,6 +32,8 @@ $versionSuffix = @{ $true = "--version-suffix=$($suffix)"; $false = ""}[$suffix 
 echo "build: Package version suffix is $suffix"
 echo "build: Build version suffix is $buildSuffix" 
 
+exec { & nuget restore TS.TypedId\TS.TypedId.sln }
+
 exec { & dotnet build TS.TypedId\TS.TypedId.sln -c Release --version-suffix=$buildSuffix }
 
 Push-Location -Path .\TS.TypedId\TS.TypedId.Test
